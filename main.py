@@ -1,6 +1,7 @@
 from turtle import *
 
 color('red','yellow')
+speed(500)
 bgcolor('black')
 begin_fill()
 while True:
@@ -9,4 +10,5 @@ while True:
     if abs(pos()) < 1:
         break
 end_fill()
+
 done()
